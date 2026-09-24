@@ -1,0 +1,82 @@
+# ===== PYTHON =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# ===== VIRTUAL ENVIRONMENTS =====
+venv/
+env/
+ENV/
+.venv
+
+# ===== IDEs & EDITORS =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ===== ENVIRONMENT & SECRETS =====
+.env
+.env.local
+.env*.local
+*.pem
+*.key
+
+# ===== AI AGENT LOGGING (CRITICAL - MUST GITIGNORE) =====
+# The log.txt file contains chat transcripts with AI agents
+# DO NOT COMMIT THIS - it's uploaded separately to HackerRank
+log.txt
+
+# ===== TESTING & COVERAGE =====
+.pytest_cache/
+.coverage
+htmlcov/
+test_*.py
+
+# ===== DEPENDENCY ARTIFACTS =====
+*.egg-info/
+*.whl
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ===== LARGE FILES & ARTIFACTS =====
+*.zip
+*.tar.gz
+*.rar
+
+# ===== DATASET & DATA (Optional - only if huge) =====
+# Uncomment if you want to exclude dataset/ from git
+# dataset/
+# Note: Usually you DO want dataset/ committed to git
+#       because it's part of the starter repo
+
+# ===== JUPYTER & NOTEBOOKS =====
+.ipynb_checkpoints/
+*.ipynb
+
+# ===== OS-SPECIFIC =====
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+
+# ===== VSCODE SPECIFIC =====
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+
+# ===== PYCACHE =====
+*.pyc
+*.pyo
+*.pyd
+.Python
