@@ -1,8 +1,6 @@
-# Buy or Wait? — AI Financial Decision Agent
+# FinAgent — Core Engine & Architecture
 
-Starter repo & solution for **HackerRank Orchestrate (September 2026)**.
-
-This repository contains the complete AI financial decision agent that evaluates user financial requests, reconstructs available balances and recurring cashflows, handles foreign currency conversion, OCR receipt extraction, message updates, spending reduction/stop options, and produces the required `output.csv`.
+A modular AI financial decision agent that evaluates user financial requests, reconstructs available balances and recurring cashflows, handles foreign currency conversion, OCR receipt extraction, message updates, spending reduction/stop options, and produces verified payment plans.
 
 ---
 
